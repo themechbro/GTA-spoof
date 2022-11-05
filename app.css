@@ -1,0 +1,148 @@
+body, html{
+    font-family: 'Noto Sans', sans-serif;
+    height: 100%;
+}.nav-item{
+    padding: auto;
+}
+.nav-item:hover{
+border-bottom: 1px solid white;
+transition: all 0.5s ;
+box-sizing: border-box;
+}a{
+    font-family: 'Noto Sans', sans-serif;
+}.butt:hover{
+    border-bottom: none;
+}.butt button{
+    width: 200px;
+    font-size: 1.1rem;
+    font-family: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+}.butt i{
+    font-size: 2rem;
+}
+
+/*First-frame*/
+.first-frame{
+    background-image:url("https://wallpaper.dog/large/10788069.jpg") ;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}.first-frame-content img{
+    height: 150px;
+    width: 150px;
+}.first-frame-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 10% 0;
+    background-color:rgba(30, 29, 29, 0.566);
+}
+/* second-frame*/
+.second-frame{
+    background-image: url("https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/911bff9fca5209b94dd22bcba795eefdd4b71993.jpg");
+    width: 100%;
+    
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}.second-frame .h2{
+    font-weight: 800;
+    font-family:'Noto Sans', sans-serif;
+}
+.second-frame .lead{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+.buy-1{
+background-image: url("https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/6a84/fdac18d4377f55a8b9aed1dcb882c4ffa0c60959.jpg");
+width: 100%;
+height: 100%;
+background-size: cover;
+}.buy-2{
+    background-image: url("https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/6a84/3360902d782314fee48567a8a70bb9996e569698.jpg");
+    width: 100%;
+height: 100%;
+background-size: cover;
+}.third-frame>.container>.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}.card-body{
+    width: 100%;
+}
+.third-frame p{
+    font-family: 'Noto Sans', sans-serif;
+}.third-frame .h3{
+    font-weight: 700;
+}
+.third-frame .blockquote{
+    font-weight: 400;
+}.warning{
+    padding: 2%;
+    background-color: rgba(22, 14, 14, 0.715);
+}.esrb{
+    width:20%;
+    height: 30%;
+    margin: 0 auto;
+    margin-top:1% ;
+    background-color: #FFF;
+}
+.esrb p{
+    font-size: 0.7rem;
+}.esrb img{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+@media (max-width:768px){
+    .esrb{
+        width:50%;
+    height: 30%;
+    margin: 5% auto;
+    background-color: #FFF;
+    }
+}
+
+
+footer{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}.first-footer, .second-footer, .third-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}.first-footer>.links>a, .second-footer>.links2>a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 0 1%;
+}.first-footer>.links, .second-footer>.links2{
+    width:100%;
+}
+.links a:hover, .links2 a:hover{
+    color: #fcaf17;
+    transition: color 0.2s ease ;
+}
+
+@media(max-width:768px){
+.first-footer, .second-footer{
+    flex-direction: column;
+    justify-content: space-between;
+}
+}
+
+footer a p {
+    font-family: 'Noto Sans', sans-serif;
+}
